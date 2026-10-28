@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vydej se na cestu do starověkého Řecka. Poznej jeho dějiny, bohy, filozofii i umění."
+    />
+    <meta name="theme-color" content="#f5f0e5" />
+    <title>Hellas — příběh starověkého Řecka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#domu" aria-label="Hellas — úvodní stránka">
+        <span class="brand-mark" aria-hidden="true">Η</span>
+        <span class="brand-name">HELLAS<span>ATLAS CIVILIZACE</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+        <span class="sr-only">Otevřít navigaci</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Hlavní navigace">
+        <a href="#pribeh">Příběh</a>
+        <a href="#casova-osa">Časová osa</a>
+        <a href="#odkaz">Odkaz Řecka</a>
+        <a class="nav-cta" href="#objevovat">Objevovat <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="domu" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Kolébka západní civilizace</p>
+          <h1 id="hero-title">Tam, kde<br />začíná <em>příběh.</em></h1>
+          <p class="hero-description">
+            Od mýtů na Olympu po myšlenky, které změnily svět. Vydej se do starověkého Řecka.
+          </p>
+          <a class="button button-dark" href="#pribeh">Vstoupit do příběhu <span aria-hidden="true">→</span></a>
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <span>Έλλάς · Hellas<br /><small>Řecko, 8. stol. př. n. l. – 146 př. n. l.</small></span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustrace řeckého chrámu při západu slunce" role="img">
+          <div class="sun"></div>
+          <div class="art-caption"><span>37° 58′ N</span><span>ATHÉNY</span></div>
+          <svg class="temple" viewBox="0 0 640 520" aria-hidden="true">
+            <path class="temple-shadow" d="M66 434h508v31H66z" />
+            <path class="temple-base" d="M91 407h458v27H91zM108 385h424v24H108z" />
+            <path class="temple-roof" d="M72 201h496L320 91z" />
+            <path class="roof-detail" d="M119 195 320 107l201 88" />
+            <path class="temple-top" d="M93 198h454v20H93z" />
+            <g class="columns">
+              <path d="M130 221h35v164h-35zM210 221h35v164h-35zM290 221h35v164h-35zM370 221h35v164h-35zM450 221h35v164h-35z" />
+              <path d="M120 214h55v11h-55zM200 214h55v11h-55zM280 214h55v11h-55zM360 214h55v11h-55zM440 214h55v11h-55z" />
+              <path d="M124 381h47v9h-47zM204 381h47v9h-47zM284 381h47v9h-47zM364 381h47v9h-47zM444 381h47v9h-47z" />
+            </g>
+            <path class="temple-door" d="M300 298a20 20 0 0 1 40 0v87h-40z" />
+            <path class="ground" d="M0 465h640v55H0z" />
+            <path class="ground-line" d="M0 478h640M40 497h200M409 497h191" />
+          </svg>
+          <span class="art-stamp">ΙΣΤΟΡΙΑ<br /><small>HISTORIA</small></span>
+        </div>
+        <a class="scroll-cue" href="#pribeh" aria-label="Posunout na další část"><span></span>Posuň se dál</a>
+      </section>
+
+      <section class="intro section-wrap" id="pribeh">
+        <div class="section-label"><span>01</span> ZROD CIVILIZACE</div>
+        <div class="intro-content">
+          <h2>Svět, který<br />dal světu <em>myšlenky.</em></h2>
+          <div class="intro-text">
+            <p>
+              Na březích Egejského moře vznikl před tisíci lety svět plný odvážných otázek,
+              hrdinských příběhů a nových nápadů. Řekové dali hlas demokracii, filozofii i divadlu.
+            </p>
+            <a class="text-link" href="#odkaz">Poznat řecký odkaz <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="stats" role="group" aria-label="Starověké Řecko v číslech">
+          <div><strong>2 800<span>+</span></strong><span>let příběhů</span></div>
+          <div><strong>300<span>+</span></strong><span>městských států</span></div>
+          <div><strong>12</strong><span>olympských bohů</span></div>
+          <div><strong>1</strong><span>trvalý odkaz</span></div>
+        </div>
+      </section>
+
+      <section class="timeline-section" id="casova-osa">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <div class="section-label"><span>02</span> CESTA ČASEM</div>
+              <h2>Okamžiky, které<br /><em>utvářely dějiny.</em></h2>
+            </div>
+            <p>Každá epocha přinesla nový pohled na svět. Tohle jsou některé z těch nejdůležitějších.</p>
+          </div>
+          <div class="timeline">
+            <article class="era-card">
+              <span class="era-date">cca 800 př. n. l.</span>
+              <span class="era-marker" aria-hidden="true"></span>
+              <p class="era-number">01 / POČÁTEK</p>
+              <h3>Zrod polis</h3>
+              <p>Po staletích změn vznikají samostatné městské státy. Atény a Sparta píší první kapitoly své slávy.</p>
+              <span class="era-symbol" aria-hidden="true">⌂</span>
+            </article>
+            <article class="era-card">
+              <span class="era-date">508 př. n. l.</span>
+              <span class="era-marker" aria-hidden="true"></span>
+              <p class="era-number">02 / NOVÝ HLAS</p>
+              <h3>Zrod demokracie</h3>
+              <p>V Aténách se rodí nový způsob vlády. Občané dostávají hlas v rozhodování o společných věcech.</p>
+              <span class="era-symbol" aria-hidden="true">△</span>
+            </article>
+            <article class="era-card">
+              <span class="era-date">5. stol. př. n. l.</span>
+              <span class="era-marker" aria-hidden="true"></span>
+              <p class="era-number">03 / ZLATÝ VĚK</p>
+              <h3>Věk Perikla</h3>
+              <p>Atény rozkvétají. Na Akropoli vyrůstá Parthenón a na jevišti ožívají příběhy dramatiků.</p>
+              <span class="era-symbol" aria-hidden="true">✳</span>
+            </article>
+            <article class="era-card">
+              <span class="era-date">336 př. n. l.</span>
+              <span class="era-marker" aria-hidden="true"></span>
+              <p class="era-number">04 / ZA HRANICE</p>
+              <h3>Alexandr Veliký</h3>
+              <p>Makedonský král dobývá rozsáhlá území a řecká kultura putuje až k hranicím Indie.</p>
+              <span class="era-symbol" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="legacy-section section-wrap" id="odkaz">
+        <div class="section-label"><span>03</span> ODKAZ HELLADY</div>
+        <div class="legacy-heading">
+          <h2>Jejich svět.<br /><em>Naše základy.</em></h2>
+          <p>Od tržiště po divadelní scénu. Řecké nápady se staly součástí našeho každodenního života.</p>
+        </div>
+        <div class="legacy-grid" id="objevovat">
+          <article class="legacy-card legacy-card-blue">
+            <span class="card-index">01 — MYŠLENÍ</span>
+            <span class="card-icon" aria-hidden="true">◉</span>
+            <h3>Filozofie</h3>
+            <p>Sokrates, Platón a Aristotelés nás naučili, že dobrá otázka může změnit všechno.</p>
+            <span class="card-greek">ΓΝΩΘΙ ΣΕΑΥΤΟΝ</span>
+          </article>
+          <article class="legacy-card legacy-card-sand">
+            <span class="card-index">02 — OBČANSTVÍ</span>
+            <span class="card-icon" aria-hidden="true">☼</span>
+            <h3>Demokracie</h3>
+            <p>Slovo „demokracie“ pochází z řeckého démos a krátos — vláda lidu.</p>
+            <span class="card-greek">ΔΗΜΟΚΡΑΤΙΑ</span>
+          </article>
+          <article class="legacy-card legacy-card-rust">
+            <span class="card-index">03 — PŘÍBĚHY</span>
+            <span class="card-icon" aria-hidden="true">◒</span>
+            <h3>Divadlo</h3>
+            <p>Tragédie a komedie zrozené pod širým nebem inspirují jeviště dodnes.</p>
+            <span class="card-greek">ΘΕΑΤΡΟΝ</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <h2 class="sr-only">Sókratův odkaz</h2>
+        <div class="quote-decoration" aria-hidden="true">“</div>
+        <blockquote>
+          <p>Vím, že nic nevím.</p>
+          <footer>— Sókratés <span>· aténský filozof</span></footer>
+        </blockquote>
+        <span class="quote-greek" aria-hidden="true">ΣΩΚΡΑΤΗΣ</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#domu">
+        <span class="brand-mark" aria-hidden="true">Η</span>
+        <span class="brand-name">HELLAS<span>ATLAS CIVILIZACE</span></span>
+      </a>
+      <p>Minulost, která žije dál.</p>
+      <div class="footer-links">
+        <a href="zdroje.html">Zdroje</a>
+        <a href="citace.md">Citace</a>
+        <a href="https://validator.w3.org/nu/">Validace HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/">Validace CSS</a>
+        <a class="back-top" href="#domu">Zpět na začátek ↑</a>
+      </div>
+      <small>© 2026 HELLAS · VYTVOŘENO PRO ZVĚDAVÉ</small>
+    </footer>
+  </body>
+</html>
